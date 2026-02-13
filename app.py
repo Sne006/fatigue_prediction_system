@@ -215,7 +215,7 @@ class FatigueDashboard:
             showlegend=True
         )
         
-        fig.update_yaxis(range=[0, 100])
+        fig.update_yaxes(range=[0, 100])
         
         return fig
     
